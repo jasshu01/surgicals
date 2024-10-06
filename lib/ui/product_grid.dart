@@ -130,7 +130,7 @@ class _ProductCardState extends State<ProductCard> {
               borderRadius: BorderRadius.vertical(top: Radius.circular(16.0)),
               child: Container(
                 height: 200,
-                color: Colors.grey[200],
+                color: const Color.fromARGB(255, 255, 255, 255),
                 child: Stack(
                   children: [
                     Image.asset(
@@ -144,11 +144,11 @@ class _ProductCardState extends State<ProductCard> {
                         if (wasSynchronouslyLoaded) {
                           return child;
                         }
-                        if (frame == null) {
-                          return Center(
-                            child: CircularProgressIndicator(),
-                          );
-                        }
+                        // if (frame == null) {
+                        //   return Center(
+                        //     child: CircularProgressIndicator(),
+                        //   );
+                        // }
                         // Image loaded
                         _isLoading = false; // Update loading state
                         return child;
@@ -164,10 +164,10 @@ class _ProductCardState extends State<ProductCard> {
                         );
                       },
                     ),
-                    if (_isLoading) // Show loading indicator
-                      Center(
-                        child: CircularProgressIndicator(),
-                      ),
+                    // if (_isLoading) // Show loading indicator
+                    // Center(
+                    //   child: CircularProgressIndicator(),
+                    // ),
                   ],
                 ),
               ),
