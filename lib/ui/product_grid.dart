@@ -28,28 +28,25 @@ class ProductGrid extends StatelessWidget {
       );
     }
 
-    return LayoutBuilder(
-      builder: (context, constraints) {
-        // Use SliverGridDelegateWithMaxCrossAxisExtent for better responsiveness
-        return Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 16.0),
-          child: GridView.builder(
-            shrinkWrap: true,
-            physics: NeverScrollableScrollPhysics(),
-            itemCount: filteredProducts.length,
-            gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
-              maxCrossAxisExtent: 350, // Maximum width of each grid item
-              mainAxisSpacing: 16.0,
-              crossAxisSpacing: 16.0,
-              childAspectRatio: 0.75, // Adjust as needed
-            ),
-            itemBuilder: (context, index) {
-              Product product = filteredProducts[index];
-              return ProductCard(product: product);
-            },
-          ),
-        );
-      },
+    return Padding(
+      padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 16.0),
+      child: GridView.builder(
+        shrinkWrap:
+            true, // Keeps it non-scrollable if inside a scrollable parent
+        physics:
+            NeverScrollableScrollPhysics(), // Ensure it's inside a scrollable widget
+        itemCount: filteredProducts.length,
+        gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
+          maxCrossAxisExtent: 350, // Maximum width of each grid item
+          mainAxisSpacing: 16.0,
+          crossAxisSpacing: 16.0,
+          childAspectRatio: 0.9, // Adjust as needed to fit content
+        ),
+        itemBuilder: (context, index) {
+          Product product = filteredProducts[index];
+          return ProductCard(product: product);
+        },
+      ),
     );
   }
 }
@@ -124,6 +121,7 @@ class _ProductCardState extends State<ProductCard> {
         ),
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
+          mainAxisSize: MainAxisSize.min,
           children: [
             // Product Image with flexible height
             ClipRRect(
