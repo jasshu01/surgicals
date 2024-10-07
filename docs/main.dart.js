@@ -61951,7 +61951,7 @@ else{r=$.acw()
 q=A.a_(r).h("aD<1>")
 s=A.a0(new A.aD(r,new A.Yr(this),q),!0,q.h("i.E"))}r=s.length
 if(r===0)return new A.fQ(B.fl,A.fk("No products available for the selected brand.",p,p,A.d2(p,p,B.l,p,p,p,p,p,p,p,p,16,p,p,p,p,p,!0,p,p,p,p,p,p,p,p),p),p)
-return new A.fQ(B.fl,new A.BA(new A.a0c(350,16,16,0.9),new A.a07(new A.Ys(s),r,!0,!0,!0,p),p,B.aG,!1,p,p,new A.CE(p),!0,p,r,B.aK,B.ED,p,B.au,B.a5,p),p)}}
+return new A.fQ(B.fl,new A.BA(new A.a0c(350,16,16,0.8),new A.a07(new A.Ys(s),r,!0,!0,!0,p),p,B.aG,!1,p,p,new A.CE(p),!0,p,r,B.aK,B.ED,p,B.au,B.a5,p),p)}}
 A.Yr.prototype={
 $1(a){return a.a===this.a.c},
 $S:402}

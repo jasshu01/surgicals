@@ -40,7 +40,7 @@ class ProductGrid extends StatelessWidget {
           maxCrossAxisExtent: 350, // Maximum width of each grid item
           mainAxisSpacing: 16.0,
           crossAxisSpacing: 16.0,
-          childAspectRatio: 0.9, // Adjust as needed to fit content
+          childAspectRatio: 0.8, // Adjust as needed to fit content
         ),
         itemBuilder: (context, index) {
           Product product = filteredProducts[index];
