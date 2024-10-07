@@ -4,28 +4,28 @@ import 'ui/header.dart';
 import 'ui/footer.dart';
 
 void main() {
-  runApp(AashirvadSurgicalsApp());
+  runApp(AshirvaadSurgicalsApp());
 }
 
-class AashirvadSurgicalsApp extends StatelessWidget {
+class AshirvaadSurgicalsApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Aashirvad Surgicals',
+      title: 'Ashirvaad Surgicals',
       debugShowCheckedModeBanner: false,
-      home: AashirvadSurgicalsHomePage(),
+      home: AshirvaadSurgicalsHomePage(),
     );
   }
 }
 
-class AashirvadSurgicalsHomePage extends StatefulWidget {
+class AshirvaadSurgicalsHomePage extends StatefulWidget {
   @override
-  _AashirvadSurgicalsHomePageState createState() =>
-      _AashirvadSurgicalsHomePageState();
+  _AshirvaadSurgicalsHomePageState createState() =>
+      _AshirvaadSurgicalsHomePageState();
 }
 
-class _AashirvadSurgicalsHomePageState
-    extends State<AashirvadSurgicalsHomePage> {
+class _AshirvaadSurgicalsHomePageState
+    extends State<AshirvaadSurgicalsHomePage> {
   String selectedBrand = 'All Brands';
 
   // Brand filter

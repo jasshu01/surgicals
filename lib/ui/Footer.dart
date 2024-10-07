@@ -15,7 +15,7 @@ class Footer extends StatelessWidget {
               Icon(Icons.medical_services, color: Colors.white),
               SizedBox(width: 8.0),
               Text(
-                'Aashirvad Surgicals',
+                'Ashirvaad Surgicals',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 20.0,
@@ -68,7 +68,7 @@ class Footer extends StatelessWidget {
           ),
           SizedBox(height: 16.0),
           Text(
-            '© 2024 Aashirvad Surgicals. All Rights Reserved.',
+            '© 2024 Ashirvaad Surgicals. All Rights Reserved.',
             style: TextStyle(color: Colors.white70),
           ),
         ],

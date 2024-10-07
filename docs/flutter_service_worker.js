@@ -3,13 +3,14 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "e814268ac43f4690f90218dbec624e07",
-"assets/AssetManifest.bin.json": "e82d74d3e298433cae53525dc331ce59",
-"assets/AssetManifest.json": "a022f40141541ee8adf16a32b2f6e65e",
+const RESOURCES = {"assets/AssetManifest.bin": "564a081021cd756ebbf03f5bd4133a57",
+"assets/AssetManifest.bin.json": "7198e0c7cc6b041f52bdb2a4a3a2ef15",
+"assets/AssetManifest.json": "0174d6d8270f7a7134a69f71ad04c561",
 "assets/assets/images/1688_CCU_Image_0004_1688-Camera-Head.jpeg": "015f722919832fed470bbf0e02652d17",
 "assets/assets/images/ethicon-gen11.jpg": "a8c0121320fa8887e207570ae9abbc20",
 "assets/assets/images/karl-storz-image1-hub.webp": "7481a73a7058a6ca76e4f67249136d6c",
 "assets/assets/images/karl-storz-spies.jpg": "71853d2f5d9457d98f0eb52759665afe",
+"assets/assets/images/logo.png": "8210131b7a8c97be5645e38278f77bc3",
 "assets/assets/images/olympus-180.webp": "df818824576742afe3f5f116ac03d9c6",
 "assets/assets/images/olympus-190.webp": "3c5bc367b812fa5ee4c34c263a33f419",
 "assets/assets/images/smith-nephew-4k.png": "d5215e4b06aed74008c5b1ae911c1c0c",
@@ -43,14 +44,14 @@ const RESOURCES = {"assets/AssetManifest.bin": "e814268ac43f4690f90218dbec624e07
 "canvaskit/skwasm.worker.js": "89990e8c92bcb123999aa81f7e203b1c",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "f393d3c16b631f36852323de8e583132",
-"flutter_bootstrap.js": "b62bc3b5dc45ee45e4f88261b6d5587b",
+"flutter_bootstrap.js": "fcdd95115c789c65a06cec3ed4a3a2ce",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
 "icons/Icon-maskable-192.png": "c457ef57daa1d16f64b27b786ec2ea3c",
 "icons/Icon-maskable-512.png": "301a7604d45b3e739efc881eb04896ea",
-"index.html": "5123cf4ab19822dbab1a1585c28e6f58",
-"/": "5123cf4ab19822dbab1a1585c28e6f58",
-"main.dart.js": "b07c69ee5bb129abd13b7175ec1a57b3",
+"index.html": "f014202548dff80e2ede59da431af604",
+"/": "f014202548dff80e2ede59da431af604",
+"main.dart.js": "5d0b202f8c9a02489328be5f90e115cd",
 "manifest.json": "9d9629423000308df2cb3209f5d23854",
 "version.json": "954e33e3dc88d78aa64a89ef196e9a55"};
 // The application shell files that are downloaded before a service worker can
